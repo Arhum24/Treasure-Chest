@@ -1,0 +1,125 @@
+@media (min-width: 0px) {
+    .example-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .new_income_icon{
+        color: green;
+    }
+    .mat-card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+    .card-header{
+        text-align: center;
+    }
+    .mat-form-field{
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 576px) {
+    .example-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .new_income_icon{
+        color: green;
+    }
+    .mat-card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+    .card-header{
+        text-align: center;
+    }
+    .mat-form-field{
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 768px) {
+    .example-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .new_income_icon{
+        color: green;
+    }
+    .mat-card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+    .card-header{
+        text-align: center;
+    }
+    .mat-form-field{
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 992px) {
+    .example-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .new_income_icon{
+        color: green;
+    }
+    .mat-card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+    .card-header{
+        text-align: center;
+    }
+    .mat-form-field{
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 1200px) {
+    .example-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .new_income_icon{
+        color: green;
+    }
+    .mat-card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+    .card-header{
+        text-align: center;
+    }
+    .mat-form-field{
+        margin-bottom: 10px;
+    }
+}

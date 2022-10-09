@@ -1,0 +1,90 @@
+@media (min-width: 0px) {
+    .example-full-width{
+        margin-right: 15px;
+        width: 80%;
+    }
+    .card-header{
+        text-align: center;
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .calendar_icon{
+        color: blue;
+    }
+    .mat-card{
+        text-align: center;
+    }
+}
+@media (min-width: 576px) {
+    .example-full-width{
+        margin-right: 15px;
+        width: 250px;
+    }
+    .card-header{
+        text-align: center;
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .calendar_icon{
+        color: blue;
+    }
+    .mat-card{
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    .example-full-width{
+        margin-right: 15px;
+        width: 250px;
+    }
+    .card-header{
+        text-align: center;
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .calendar_icon{
+        color: blue;
+    }
+    .mat-card{
+        text-align: center;
+    }
+}
+@media (min-width: 992px) {
+    .example-full-width{
+        margin-right: 15px;
+        width: 250px;
+    }
+    .card-header{
+        text-align: center;
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .calendar_icon{
+        color: blue;
+    }
+    .mat-card{
+        text-align: center;
+    }
+}
+@media (min-width: 1200px) {
+    .example-full-width{
+        margin-right: 15px;
+        width: 250px;
+    }
+    .card-header{
+        text-align: center;
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .calendar_icon{
+        color: blue;
+    }
+    .mat-card{
+        text-align: center;
+    }
+}

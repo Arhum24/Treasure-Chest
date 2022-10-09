@@ -1,0 +1,283 @@
+/* Unreasonably Small devices (landscape phones, 0px and up) */
+@media (min-width: 0px) {
+    .card-header {
+        text-align: center;
+      }
+      .money_amount {
+        font-weight: bolder;
+        font-size: 15px;
+        text-align: center;
+      }
+      .money_title {
+        font-weight: bolder;
+        font-size: 25px;
+        text-align: center;
+      }
+      .example-full-width {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .icon {
+        /* font-size: 50px; */
+      }
+      .register_icon {
+        color: chocolate;
+      }
+      .register_header-text {
+        color: black;
+        font-weight: bold;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .mat-card {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 90%;
+      }
+      .register_button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 80px;
+      }
+      .login_button {
+        padding: 0px;
+        margin-top: -22px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+        color: lightskyblue;
+        text-align: center;
+        font-size: 13px;
+      }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .card-header {
+        text-align: center;
+      }
+      .money_amount {
+        font-weight: bolder;
+        font-size: 15px;
+        text-align: center;
+      }
+      .money_title {
+        font-weight: bolder;
+        font-size: 25px;
+        text-align: center;
+      }
+      .example-full-width {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .icon {
+        /* font-size: 50px; */
+      }
+      .register_icon {
+        color: chocolate;
+      }
+      .register_header-text {
+        color: black;
+        font-weight: bold;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .mat-card {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 90%;
+      }
+      .register_button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 80px;
+      }
+      .login_button {
+        padding: 0px;
+        margin-top: -22px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+        color: lightskyblue;
+        text-align: center;
+        font-size: 13px;
+      }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .card-header {
+        text-align: center;
+      }
+      .money_amount {
+        font-weight: bolder;
+        font-size: 15px;
+        text-align: center;
+      }
+      .money_title {
+        font-weight: bolder;
+        font-size: 25px;
+        text-align: center;
+      }
+      .example-full-width {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .icon {
+        /* font-size: 50px; */
+      }
+      .register_icon {
+        color: chocolate;
+      }
+      .register_header-text {
+        color: black;
+        font-weight: bold;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .mat-card {
+        text-align: center;
+        width: 60%;
+      }
+      .register_button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 80px;
+      }
+      .login_button {
+        padding: 0px;
+        margin-top: -22px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+        color: lightskyblue;
+        text-align: center;
+        font-size: 13px;
+      }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .card-header {
+        text-align: center;
+      }
+      .money_amount {
+        font-weight: bolder;
+        font-size: 15px;
+        text-align: center;
+      }
+      .money_title {
+        font-weight: bolder;
+        font-size: 25px;
+        text-align: center;
+      }
+      .example-full-width {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .icon {
+        /* font-size: 50px; */
+      }
+      .register_icon {
+        color: chocolate;
+      }
+      .register_header-text {
+        color: black;
+        font-weight: bold;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .mat-card {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 90%;
+      }
+      .register_button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 80px;
+      }
+      .login_button {
+        padding: 0px;
+        margin-top: -22px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+        color: lightskyblue;
+        text-align: center;
+        font-size: 13px;
+      }
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .card-header {
+        text-align: center;
+      }
+      .money_amount {
+        font-weight: bolder;
+        font-size: 15px;
+        text-align: center;
+      }
+      .money_title {
+        font-weight: bolder;
+        font-size: 25px;
+        text-align: center;
+      }
+      .example-full-width {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .icon {
+        /* font-size: 50px; */
+      }
+      .register_icon {
+        color: chocolate;
+      }
+      .register_header-text {
+        color: black;
+        font-weight: bold;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .mat-card {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 90%;
+      }
+      .register_button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 80px;
+      }
+      .login_button {
+        padding: 0px;
+        margin-top: -22px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+        color: lightskyblue;
+        text-align: center;
+        font-size: 13px;
+      }
+}
+

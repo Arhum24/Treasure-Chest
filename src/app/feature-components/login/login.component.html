@@ -1,0 +1,86 @@
+<mat-card class="example-card">
+  <p class="card-header">
+    <mat-icon
+      class="icon login_icon"
+      aria-hidden="false"
+      aria-label="Example login icon"
+      >sentiment_very_satisfied</mat-icon
+    >
+    <br />
+    <i class="login_header-text">Login</i>
+  </p>
+  <br />
+  <mat-card-content>
+    <form class="example-form">
+      <div class="row">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Email</mat-label>
+          <input
+            type="email"
+            matInput
+            [formControl]="email_form_control"
+            [errorStateMatcher]="matcher"
+            placeholder="Ex. abc@example.com"
+          />
+          <mat-error
+            *ngIf="
+              email_form_control.hasError('email') &&
+              !email_form_control.hasError('required')
+            "
+          >
+            Please enter a valid email address
+          </mat-error>
+          <mat-error *ngIf="email_form_control.hasError('required')">
+            Email is <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Enter your password</mat-label>
+          <input
+            matInput
+            [formControl]="password_form_control"
+            [errorStateMatcher]="matcher"
+            [type]="hide_password ? 'password' : 'text'"
+          />
+          <button
+            mat-icon-button
+            matSuffix
+            (click)="hide_password = !hide_password"
+            [attr.aria-label]="'Hide password'"
+            [attr.aria-pressed]="hide_password"
+          >
+            <mat-icon>{{
+              hide_password ? "visibility_off" : "visibility"
+            }}</mat-icon>
+          </button>
+          <mat-error *ngIf="password_form_control.hasError('required')">
+            Password is <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <button
+          class="login_botton"
+          mat-raised-button
+          color="primary"
+          (click)="user_is_loggedin($event)"
+        >
+          Login
+        </button>
+      </div>
+      <div class="row">
+        <p class="account_question_text">Don't have an account?</p>
+        <button
+          class="register_button"
+          mat-button
+          [disableRipple] = true
+          (click)="open_register_form($event)"
+        >
+          Register
+        </button>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>

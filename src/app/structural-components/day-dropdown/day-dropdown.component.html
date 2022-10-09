@@ -1,0 +1,52 @@
+<mat-expansion-panel *ngFor="let day of days_needed">
+    <mat-expansion-panel-header class="days_titles"> {{day.name}} </mat-expansion-panel-header>
+  <form class="example-form">
+
+    <mat-form-field appearance="fill" class="example-full-width">
+      <mat-label>{{start_app_date.toDateString()}}</mat-label>
+      <input matInput [matDatepicker]="datepicker" [placeholder]="start_app_date.toDateString()">
+      <mat-datepicker-toggle matSuffix [for]="datepicker"></mat-datepicker-toggle>
+      <mat-datepicker #datepicker>
+        <mat-datepicker-actions>
+          <button mat-button matDatepickerCancel>Cancel</button>
+          <button mat-raised-button color="primary" matDatepickerApply>Apply</button>
+        </mat-datepicker-actions>
+      </mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>1,000,000</mat-label>
+        <span matPrefix>Rs. &nbsp;</span>
+        <input type="number" matInput placeholder="1,000,000">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>6 Bananas</mat-label>
+        <input matInput #message maxlength="256" placeholder="Ex. 6 bananas & 4 apples">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>{{expenses[0].description}}</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let expense of expenses" [value]="expense.value">
+            {{expense.description}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>{{accounts[0].name}}</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let account of accounts" value="account.value">
+            {{account.name}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <br>
+
+      <button mat-raised-button class="update-button" color="Accent"> {{update_button_text}} </button>
+      <button mat-raised-button class="delete-button" color="Accent"> {{delete_button_text}} </button>
+
+    </form>
+  </mat-expansion-panel>

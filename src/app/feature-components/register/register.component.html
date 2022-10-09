@@ -1,0 +1,137 @@
+<mat-card class="example-card">
+  <p class="card-header">
+    <mat-icon
+      class="icon register_icon"
+      aria-hidden="false"
+      aria-label="Example register icon"
+      >sentiment_satisfied</mat-icon
+    >
+    <br />
+    <i class="register_header-text">Register</i>
+  </p>
+  <br />
+  <mat-card-content>
+    <form class="example-form">
+      <div class="row">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Name</mat-label>
+          <input class="name_input" matInput placeholder="e.g. Arhum J." />
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Username</mat-label>
+          <input
+            class="username_input"
+            matInput
+            placeholder="e.g. ArhumJB123"
+          />
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Email</mat-label>
+          <input
+            type="email"
+            matInput
+            [formControl]="email_form_control"
+            [errorStateMatcher]="matcher"
+            placeholder="Ex. abc@example.com"
+          />
+          <mat-error
+            *ngIf="
+              email_form_control.hasError('email') &&
+              !email_form_control.hasError('required')
+            "
+          >
+            Please enter a valid email address
+          </mat-error>
+          <mat-error *ngIf="email_form_control.hasError('required')">
+            Email is <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Telephone</mat-label>
+          <span matPrefix>+92 &nbsp;</span>
+          <input type="tel" matInput placeholder="555-555-1234" />
+          <mat-icon matSuffix>mode_edit</mat-icon>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Enter your password</mat-label>
+          <input
+            matInput
+            [formControl]="password_form_control"
+            [errorStateMatcher]="matcher"
+            [type]="hide_password ? 'password' : 'text'"
+          />
+          <button
+            mat-icon-button
+            matSuffix
+            (click)="hide_password = !hide_password"
+            [attr.aria-label]="'Hide password'"
+            [attr.aria-pressed]="hide_password"
+          >
+            <mat-icon>{{
+              hide_password ? "visibility_off" : "visibility"
+            }}</mat-icon>
+          </button>
+          <mat-error *ngIf="password_form_control.hasError('required')">
+            Password is <strong>required</strong>
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Confirm your password</mat-label>
+          <input
+            matInput
+            [formControl]="confirm_password_form_control"
+            [errorStateMatcher]="matcher"
+            [type]="hide_password ? 'password' : 'text'"
+          />
+          <button
+            mat-icon-button
+            matSuffix
+            (click)="hide_password = !hide_password"
+            [attr.aria-label]="'Hide password'"
+            [attr.aria-pressed]="hide_password"
+          >
+            <mat-icon>{{
+              hide_password ? "visibility_off" : "visibility"
+            }}</mat-icon>
+          </button>
+          <mat-error *ngIf="confirm_password_form_control.hasError('required')">
+            Please <strong>confirm</strong> your password
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <button
+          class="register_button"
+          mat-raised-button
+          color="primary"
+          (click)="user_is_loggedin($event)"
+        >
+          Register
+        </button>
+      </div>
+      <div class="row">
+        <p>
+          Go back to
+          <button
+            class="login_button"
+            mat-button
+            (click)="open_login_form($event)"
+          >
+            Login
+          </button>
+          ?
+        </p>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>

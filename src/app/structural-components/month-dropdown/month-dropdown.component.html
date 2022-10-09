@@ -1,0 +1,4 @@
+<mat-expansion-panel *ngFor="let month of months_needed">
+    <mat-expansion-panel-header class="month_titles"> {{month.name}} </mat-expansion-panel-header>
+    <app-day-dropdown></app-day-dropdown>
+  </mat-expansion-panel>

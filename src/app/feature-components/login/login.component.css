@@ -1,0 +1,246 @@
+/* Unreasonably Small devices (landscape phones, 0px and up) */
+@media (min-width: 0px) {
+  .card-header {
+    text-align: center;
+  }
+  .example-full-width {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .account_question_text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon {
+    /* font-size: 50px; */
+  }
+  .login_icon {
+    color: chocolate;
+  }
+  .login_header-text {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .mat-card {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 450px;
+  }
+  .register_button {
+    padding: 0px;
+    margin-top: -22px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    color: lightskyblue;
+    text-align: center;
+    font-size: 13px;
+  }
+  .login_botton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 30%;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .card-header {
+    text-align: center;
+  }
+  .example-full-width {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .account_question_text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon {
+    /* font-size: 50px; */
+  }
+  .login_icon {
+    color: chocolate;
+  }
+  .login_header-text {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .mat-card {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+  }
+  .register_button {
+    padding: 0px;
+    margin-top: -22px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    color: lightskyblue;
+    text-align: center;
+    font-size: 13px;
+  }
+  .login_botton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 30%;
+  }
+}
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .card-header {
+    text-align: center;
+  }
+  .example-full-width {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .account_question_text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon {
+    /* font-size: 50px; */
+  }
+  .login_icon {
+    color: chocolate;
+  }
+  .login_header-text {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .mat-card {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 60%;
+  }
+  .register_button {
+    padding: 0px;
+    margin-top: -22px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    color: lightskyblue;
+    text-align: center;
+    font-size: 13px;
+  }
+  .login_botton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 30%;
+  }
+}
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .card-header {
+    text-align: center;
+  }
+  .example-full-width {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .account_question_text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon {
+    /* font-size: 50px; */
+  }
+  .login_icon {
+    color: chocolate;
+  }
+  .login_header-text {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .mat-card {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+  }
+  .register_button {
+    padding: 0px;
+    margin-top: -22px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    color: lightskyblue;
+    text-align: center;
+    font-size: 13px;
+  }
+  .login_botton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 30%;
+  }
+}
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .card-header {
+    text-align: center;
+  }
+  .example-full-width {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .icon {
+    /* font-size: 50px; */
+  }
+  .login_icon {
+    color: chocolate;
+  }
+  .login_header-text {
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .mat-card {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+  }
+  .register_button {
+    padding: 0px;
+    margin-top: -22px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    color: lightskyblue;
+    text-align: center;
+    font-size: 13px;
+  }
+  .login_botton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 30%;
+  }
+}

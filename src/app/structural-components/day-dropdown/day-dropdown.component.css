@@ -1,0 +1,102 @@
+@media (min-width: 0px) {
+    .example-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+    .days_titles{
+        font-weight: bolder;
+        font-size: small;
+    }
+    .update-button {
+        margin-left: auto;
+        margin-right: 25px;
+        background: aquamarine;
+    }
+    .delete-button {
+        margin-left: auto;
+        background: red;
+    }
+}
+@media (min-width: 576px) {
+    .example-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+    .days_titles{
+        font-weight: bolder;
+        font-size: small;
+    }
+    .update-button {
+        margin-left: auto;
+        margin-right: 25px;
+        background: aquamarine;
+    }
+    .delete-button {
+        margin-left: auto;
+        background: red;
+    }
+}
+@media (min-width: 768px) {
+    .example-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+    .days_titles{
+        font-weight: bolder;
+        font-size: small;
+    }
+    .update-button {
+        margin-left: auto;
+        margin-right: 25px;
+        background: aquamarine;
+    }
+    .delete-button {
+        margin-left: auto;
+        background: red;
+    }
+}
+@media (min-width: 992px) {
+    .example-full-width{
+        margin-left: auto;
+        margin-right: 25px;
+        width: 30%;
+    }
+    .days_titles{
+        font-weight: bolder;
+        font-size: small;
+    }
+    .update-button {
+        margin-left: auto;
+        margin-right: 25px;
+        background: aquamarine;
+    }
+    .delete-button {
+        margin-left: auto;
+        margin-right: auto;
+        background: red;
+    }
+}
+@media (min-width: 1200px) {
+    .example-full-width{
+        margin-left: auto;
+        margin-right: 25px;
+        width: 30%;
+    }
+    .days_titles{
+        font-weight: bolder;
+        font-size: small;
+    }
+    .update-button {
+        margin-left: auto;
+        margin-right: 25px;
+        background: aquamarine;
+    }
+    .delete-button {
+        margin-left: auto;
+        margin-right: auto;
+        background: red;
+    }
+}

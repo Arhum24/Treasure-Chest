@@ -1,0 +1,57 @@
+<mat-card class="example-card">
+    <p class="card-header">
+      <mat-icon class="icon new_income_icon" aria-hidden="false" aria-label="Example money icon">money</mat-icon>
+      <br>
+          New Income
+    </p>
+    <br>
+      <mat-card-content>
+        <form class="example-form">
+  
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Choose a date</mat-label>
+            <input matInput [matDatepicker]="datepicker">
+            <mat-datepicker-toggle matSuffix [for]="datepicker"></mat-datepicker-toggle>
+            <mat-datepicker #datepicker>
+              <mat-datepicker-actions>
+                <button mat-button matDatepickerCancel>Cancel</button>
+                <button mat-raised-button color="primary" matDatepickerApply>Apply</button>
+              </mat-datepicker-actions>
+            </mat-datepicker>
+          </mat-form-field>
+          
+          <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Amount in Rs.</mat-label>
+            <span matPrefix>Rs. &nbsp;</span>
+            <input type="number" matInput placeholder="1,000,000">
+          </mat-form-field>
+  
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Description</mat-label>
+            <input matInput #message maxlength="256" placeholder="Ex. 6 bananas & 4 apples">
+            <mat-hint align="start"><strong>Don't disclose personal info</strong> </mat-hint>
+            <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
+          </mat-form-field>
+  
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Income(s)</mat-label>
+            <mat-select>
+              <mat-option *ngFor="let income of incomes" [value]="income.value">
+                {{income.description}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+  
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Account(s)</mat-label>
+            <mat-select>
+              <mat-option *ngFor="let account of accounts" [value]="account.value">
+                {{account.name}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+  
+        </form>
+        <button mat-raised-button color="primary"> Save </button>
+      </mat-card-content>
+    </mat-card>

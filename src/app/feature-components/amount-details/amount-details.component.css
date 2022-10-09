@@ -1,0 +1,223 @@
+@media (min-width: 0px) {
+    .card-header{
+        text-align: center;
+    }
+    .money_amount{
+        font-weight: bolder;
+        font-size: medium;
+        text-align: center;
+    }
+    .money_title{
+        font-weight: bolder;
+        font-size: medium;
+        text-align: center;
+    }
+    .example-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-left: auto;
+    }
+    .total_amount-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        text-align: center;
+    }
+    .update-button {
+        background: aquamarine;
+    }
+    .edit-button {
+        background: rgb(218, 202, 223);
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .money_icon{
+        color: greenyellow;
+    }
+    .mat-card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+}
+@media (min-width: 576px) {
+    .card-header{
+        text-align: center;
+    }
+    .money_amount{
+        font-weight: bolder;
+        font-size: medium;
+        text-align: center;
+    }
+    .money_title{
+        font-weight: bolder;
+        font-size: medium;
+        text-align: center;
+    }
+    .example-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .total_amount-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        text-align: center;
+    }
+    .update-button {
+        background: aquamarine;
+    }
+    .edit-button {
+        background: rgb(218, 202, 223);
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .money_icon{
+        color: greenyellow;
+    }
+    .mat-card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    .card-header{
+        text-align: center;
+    }
+    .money_amount{
+        font-weight: bolder;
+        font-size: medium;
+        text-align: center;
+    }
+    .money_title{
+        font-weight: bolder;
+        font-size: medium;
+        text-align: center;
+    }
+    .example-full-width{
+        margin-left: auto;
+        margin-right: 15px;
+        width: 40%;
+    }
+    .total_amount-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+        text-align: center;
+    }
+    .update-button {
+        background: aquamarine;
+    }
+    .edit-button {
+        background: rgb(218, 202, 223);
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .money_icon{
+        color: greenyellow;
+    }
+    .mat-card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+        text-align: center;
+    }
+}
+@media (min-width: 992px) {
+    .card-header{
+        text-align: center;
+    }
+    .money_amount{
+        font-weight: bolder;
+        font-size: medium;
+        text-align: center;
+    }
+    .money_title{
+        font-weight: bolder;
+        font-size: medium;
+        text-align: center;
+    }
+    .example-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .total_amount-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        text-align: center;
+    }
+    .update-button {
+        margin-left: auto;
+        margin-right: auto;
+        background: aquamarine;
+    }
+    .edit-button {
+        margin-left: auto;
+        margin-right: auto;
+        background: rgb(218, 202, 223);
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .money_icon{
+        color: greenyellow;
+    }
+    .mat-card{
+        text-align: center;
+    }
+}
+@media (min-width: 1200px) {
+    .card-header{
+        text-align: center;
+    }
+    .money_amount{
+        font-weight: bolder;
+        font-size: medium;
+        text-align: center;
+    }
+    .money_title{
+        font-weight: bolder;
+        font-size: medium;
+        text-align: center;
+    }
+    .example-full-width{
+        margin-left: auto;
+        margin-right: 15px;
+        width: 60%;
+    }
+    .total_amount-full-width{
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        text-align: center;
+    }
+    .update-button {
+        margin-left: auto;
+        margin-right: auto;
+        background: aquamarine;
+    }
+    .edit-button {
+        margin-left: auto;
+        margin-right: auto;
+        background: rgb(218, 202, 223);
+    }
+    .icon{
+        /* font-size: 50px; */
+    }
+    .money_icon{
+        color: greenyellow;
+    }
+    .mat-card{
+        text-align: center;
+    }
+}
