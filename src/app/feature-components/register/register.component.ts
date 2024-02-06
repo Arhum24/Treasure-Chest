@@ -1,5 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { FormControl, FormGroupDirective, NgForm, Validators } from '@angular/forms';
+import { UntypedFormControl, FormGroupDirective, NgForm, Validators } from '@angular/forms';
 import { ErrorStateMatcher } from '@angular/material/core';
 
 @Component({
@@ -34,16 +34,16 @@ export class RegisterComponent implements OnInit {
     this.loggedin_bool_output.emit(this.is_user_logged_in);
   }
 
-  email_form_control = new FormControl('', [Validators.required, Validators.email]);
-  password_form_control = new FormControl('', [Validators.required]);
-  confirm_password_form_control = new FormControl('', [Validators.required]);
+  email_form_control = new UntypedFormControl('', [Validators.required, Validators.email]);
+  password_form_control = new UntypedFormControl('', [Validators.required]);
+  confirm_password_form_control = new UntypedFormControl('', [Validators.required]);
 
   matcher = new MyErrorStateMatcher();
 
 }
 
 export class MyErrorStateMatcher implements ErrorStateMatcher {
-  isErrorState(control: FormControl | null, form: FormGroupDirective | NgForm | null): boolean {
+  isErrorState(control: UntypedFormControl | null, form: FormGroupDirective | NgForm | null): boolean {
     const is_submitted = form && form.submitted;
     return !!(control && control.invalid && (control.dirty || control.touched || is_submitted));
   }
