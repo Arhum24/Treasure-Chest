@@ -12,14 +12,14 @@
             <p class="money_title">Total</p>
             <mat-divider></mat-divider>
             <br>
-            <input class="money_amount" matInput value="{{total_amount}}" [readonly]="!is_editable">
+            <input aria-label="enter total money amount" class="money_amount" matInput value="{{total_amount}}" [readonly]="!is_editable">
           </mat-form-field>
         </div>
         <mat-form-field class="example-full-width" appearance="fill" *ngFor="let account of accounts" value="account.value">
           <p class="money_title">{{account.name}}</p>
           <mat-divider></mat-divider>
           <br>
-          <input class="money_amount" matInput value="Rs. 1,000,111" [readonly]="!is_editable">
+          <input aria-label="enter account money amount" class="money_amount" matInput value="Rs. 1,000,111" [readonly]="!is_editable">
         </mat-form-field>
       </form>
       <button *ngIf="!is_editable" mat-raised-button class="edit-button" color="Accent" (click)="make_amounts_editable($event)"> {{edit_button_text}} </button>
