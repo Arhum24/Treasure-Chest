@@ -63,12 +63,14 @@
         <mat-form-field class="example-full-width" appearance="fill">
           <mat-label>Enter your password</mat-label>
           <input
+            aria-label="enter a valid password"
             matInput
             [formControl]="password_form_control"
             [errorStateMatcher]="matcher"
             [type]="hide_password ? 'password' : 'text'"
           />
           <button
+            type="button"
             mat-icon-button
             matSuffix
             (click)="hide_password = !hide_password"
@@ -88,12 +90,14 @@
         <mat-form-field class="example-full-width" appearance="fill">
           <mat-label>Confirm your password</mat-label>
           <input
+            aria-label="enter the confirmed password"
             matInput
             [formControl]="confirm_password_form_control"
             [errorStateMatcher]="matcher"
             [type]="hide_password ? 'password' : 'text'"
           />
           <button
+            type="button"
             mat-icon-button
             matSuffix
             (click)="hide_password = !hide_password"
@@ -111,6 +115,7 @@
       </div>
       <div class="row">
         <button
+          type="button"
           class="register_button"
           mat-raised-button
           color="primary"
@@ -123,6 +128,7 @@
         <p>
           Go back to
           <button
+            type="button"
             class="login_button"
             mat-button
             (click)="open_login_form($event)"
