@@ -1,0 +1,15 @@
+.tr_ch-main {
+    background-color: lightcyan;
+}
+.tr_ch-main-login_register {
+    height: 100vh;
+}
+.login-container {
+    padding-top: 10em;
+}
+.register-container {
+    padding-top: 2.5em;
+}
+.split-screen {
+    background-color: aliceblue;
+}

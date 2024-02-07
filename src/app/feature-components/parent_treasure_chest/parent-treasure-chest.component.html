@@ -1,27 +1,35 @@
-<br />
-<div *ngIf="!is_logged_in" class="tr_ch-main-login_register">
-  <div class="container-fluid" *ngIf="!switch_to_register">
-    <div class="row">
-      <div class="col-lg-4"></div>
-      <div class="col-lg-4">
-        <app-login
-          (login_form_bool_output)="open_register_form($event)"
-          (loggedin_bool_output)="should_log_in($event)"
-        ></app-login>
+<div *ngIf="!is_logged_in">
+  <div class="row tr_ch-main-login_register">
+    <div class="col-6">
+      <div class="container-fluid login-container" *ngIf="!switch_to_register">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <app-login
+              (login_form_bool_output)="open_register_form($event)"
+              (loggedin_bool_output)="should_log_in($event)"
+            ></app-login>
+          </div>
+          <div class="col-2"></div>
+        </div>
       </div>
-      <div class="col-lg-4"></div>
+      <div class="container-fluid register-container" *ngIf="switch_to_register">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <app-register
+              (register_form_bool_output)="open_login_form($event)"
+              (loggedin_bool_output)="should_log_in($event)"
+            ></app-register>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="container-fluid" *ngIf="switch_to_register">
-    <div class="row">
-      <div class="col-lg-4"></div>
-      <div class="col-lg-4">
-        <app-register
-          (register_form_bool_output)="open_login_form($event)"
-          (loggedin_bool_output)="should_log_in($event)"
-        ></app-register>
+    <div class="col-6 split-screen">
+      <div class=""> 
+
       </div>
-      <div class="col-lg-4"></div>
     </div>
   </div>
 </div>
@@ -31,10 +39,11 @@
     <div class="row">
       <div class="col-lg-12">
         <app-header-info
-         (logout_bool_output)="logout($event)"
+          (logout_bool_output)="logout($event)"
         ></app-header-info>
       </div>
     </div>
+    <br>
     <!-- Seperate Comp for the Details -->
     <div class="row">
       <div class="col-lg-6">
@@ -51,7 +60,8 @@
         <app-new-income></app-new-income>
       </div>
     </div>
-    <!-- // Display -->
+    <br>
+    <!-- // Display Past -->
     <div class="row">
       <!-- Seperate Comp for the Details -->
       <div class="col-lg-12">

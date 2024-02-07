@@ -1,6 +1,9 @@
 /* Unreasonably Small devices (landscape phones, 0px and up) */
 @media (min-width: 0px) {
-    .card-header {
+      .login-question-text {
+        text-align: center;
+      }
+      .card-header {
         text-align: center;
       }
       .money_amount {
@@ -45,7 +48,6 @@
       }
       .login_button {
         padding: 0px;
-        margin-top: -22px;
         margin-left: auto;
         margin-right: auto;
         width: 80px;
@@ -100,16 +102,6 @@
         text-align: center;
         width: 80px;
       }
-      .login_button {
-        padding: 0px;
-        margin-top: -22px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80px;
-        color: lightskyblue;
-        text-align: center;
-        font-size: 13px;
-      }
 }
 
 /*  Medium devices (tablets, 768px and up) */
@@ -154,16 +146,6 @@
         margin-bottom: 20px;
         text-align: center;
         width: 80px;
-      }
-      .login_button {
-        padding: 0px;
-        margin-top: -22px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80px;
-        color: lightskyblue;
-        text-align: center;
-        font-size: 13px;
       }
 }
 
@@ -212,16 +194,6 @@
         text-align: center;
         width: 80px;
       }
-      .login_button {
-        padding: 0px;
-        margin-top: -22px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80px;
-        color: lightskyblue;
-        text-align: center;
-        font-size: 13px;
-      }
 }
 
 /*  Extra large devices (large desktops, 1200px and up) */
@@ -268,16 +240,6 @@
         margin-bottom: 20px;
         text-align: center;
         width: 80px;
-      }
-      .login_button {
-        padding: 0px;
-        margin-top: -22px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80px;
-        color: lightskyblue;
-        text-align: center;
-        font-size: 13px;
       }
 }
 
